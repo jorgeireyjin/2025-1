@@ -1,0 +1,25 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "Ejemplo de pruebas de mutacion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:mutation" : "stryker run"
+  },
+  "keywords": [
+    "is2"
+  ],
+  "author": "Jin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@stryker-mutator/jest-runner": "^9.0.1"
+  }
+}

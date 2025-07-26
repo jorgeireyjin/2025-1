@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 20px; /* Margen alrededor del contenido */
+}
+fieldset {
+    border: 2px solid #007BFF; /* Color del borde */
+    padding: 15px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo */
+    border-radius: 5px; /* Bordes redondeados */
+}
+legend {
+    font-weight: bold; /* Negrita para el título */
+    color: #007BFF; /* Color del texto del título */
+}
+label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin: 10px 0 5px; /* Margen alrededor de las etiquetas */
+}

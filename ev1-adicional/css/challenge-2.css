@@ -1,0 +1,50 @@
+* {
+    font-family: 'Zen Dots', cursive;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+   color:white;
+}
+
+p {
+    color : green;
+    display : inline;
+}
+
+strong {
+    color: red;
+}
+
+
+img {
+    width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 80px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    vertical-align: top; /* Alinea la imagen en la parte superior */
+    float: left;
+    border-style: double;
+}
+
+.fila {
+        display: block; /* Cada fila ocupa toda la línea */
+        background: #fff;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        height: auto;
+        overflow: hidden;
+    }
+
+
+.texto {
+        display: block; /* Texto en bloque */
+        overflow: hidden; /* Asegura que el texto no se desborde */
+
+}
+

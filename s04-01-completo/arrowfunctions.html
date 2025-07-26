@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejemplo HTML5">
+    <meta name="keywords" content="HTML,Programacion web">
+    <title>..:: Semana 04::..</title>
+    <link rel="stylesheet" href="./css/semana04.css" />
+</head>
+
+<body>
+    <h1>Arrow Functions</h1>
+
+    <p>
+        Una "arrow function" (o función flecha) en JavaScript es una forma concisa de escribir funciones.
+        Introducidas en ECMAScript 6 (ES6), las funciones flecha tienen una sintaxis más corta, lo que las hace útiles
+        en ciertos casos, como en callbacks y programación funcional.
+    </p>
+    <p>Sintaxis básica</p>
+    <pre><code>
+            const nombreFuncion = (param1, param2) => {
+                 // cuerpo de la función
+            };
+    </code></pre>
+
+    <p> Si la funcion tiene un solo parametro:</p>
+    <pre><code>
+            const nombreFuncion = param => {
+                // cuerpo de la función
+            };
+        </code></pre>
+    <p> SI la funcion tiene una sola expresión se puede omitir las llaves y el return</p>
+    <pre><code>
+            const suma = (a, b) => a + b;
+        </code></pre>
+
+    <br>
+    <h2>Ejemplo de arrow Function </h2>
+    <form action="#" method="post">
+        <p>Operando 1</p>
+        <input type="text" id="v1" />
+        <br>
+        <p>Operando 2</p>
+        <input type="text" id="v2" />
+        <br>
+        <input type="button" value="S U M A - Tradicional" onclick="sumarTradicional();" />
+        <input type="button" value="S U M A - Arrow 1" onclick="sumarArrow1();" />
+        <input type="button" value="S U M A - Arrow 2" onclick="sumarArrow2();" />
+        <input type="reset" value="L I M P I A R" />
+
+    </form>
+    <p id="resultado"> </p>
+
+    <script src="./js/arrow.js"></script>
+</body>
+
+</html>

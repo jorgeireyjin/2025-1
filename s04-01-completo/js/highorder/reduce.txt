@@ -1,0 +1,25 @@
+/*************************************
+ * Ejemplo de REDUCE
+ */
+ function reduce(array, start) {
+    let current = start;
+    for (let element of array) {
+      current = current + element
+    }
+    return current;
+  }
+
+data = [5, 6, 7, 8];
+rpta = reduce(data, 0 )
+console.log("la SUMA es " , rpta)
+
+
+/*****/
+
+console.log("Sumando con REDUCE ...")
+total = 0
+const suma2 = data.reduce( (total, elem) => {  
+  return total + elem;
+});
+
+console.log(suma2); 

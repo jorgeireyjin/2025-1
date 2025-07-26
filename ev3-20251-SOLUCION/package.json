@@ -1,0 +1,23 @@
+{
+  "name": "ev3-20251-solucion",
+  "version": "1.0.0",
+  "description": "Solucion (posible) a evaluacion 3 ciclo 2025-1",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ev3",
+    "pw",
+    "cis",
+    "ul"
+  ],
+  "author": "Jin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

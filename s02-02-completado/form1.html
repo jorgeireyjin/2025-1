@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+    <title>..:: Ejemplo de FORM ::..</title>
+    <link rel="stylesheet" href="./styles/estilos02.css" />
+</head>
+
+<body>
+    <form action="/subscribe" method="GET">
+        <fieldset>
+            <legend class="legend">Mi Perfil</legend>
+            <div>
+                <label for="name">Nombres</label><br>
+                <input type="text" placeholder="nombre" autofocus>
+                <input type="text" placeholder="apellido">
+            </div><br>
+            <div>
+                <label for="fnac">Fecha de Nacimiento</label><br>
+                <input type="date" value="" name="fnac">
+            </div>
+            <div class="genero">
+                <label for="gen">Genero</label><br>
+                <input type="radio" name="gen"><label>Masculino</label>
+                <input type="radio" name="gen"><label>Femenino</label>
+            </div>
+            <br>
+            <div>
+                <label for="direccion">Direccion</label><br>
+                <input type="text" class="textboxAddress" name="direccion" placeholder="Direccion"><br>
+                <input type="text" class="textboxAddress" name="referencia" placeholder="Referencia"><br>
+                <input type="text" class="textboxAddressDetail" name="ciudad" placeholder="Ciudad">
+                <input type="text" class="textboxAddressDetail" name="provincia" placeholder="Provincia"><br>
+
+                <select class="selectOption">
+                    <option value="pais">Argentina</option>
+                    <option value="pais">Brasil</option>
+                    <option value="pais">Colombia</option>
+                    <option value="pais" selected>Peru</option>
+                    <option value="pais">Uruguay</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="contact">Telefono</label><br>
+                <input type="tel" class="textboxAddressDetail" placeholder="Fijo">
+                <input type="tel" class="textboxAddressDetail" placeholder="Movil">
+            </div><br>
+            <div>
+                <label for="correo">Correo Electronico y Dominio</label><br>
+                <input type="email" class="textboxAddressDetail" name="correo" placeholder="email@dominio.com">
+                <input type="url" class="textboxAddressDetail" name="dominio" placeholder="http://tu.dominio.com">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="legend">General Information</legend>
+            <div>
+                <label for="info">Edad</label><br>
+                <input type="number" min="18" max="100" placeholder="Edad ?">
+            </div><br>
+            <div>
+                <label for="color">Color</label><br>
+                <input type="color" placeholder="color favorito">
+            </div><br>
+            <div>
+                <label for="exerciceinfo">Lenguajes de Programacion</label><br>
+                <div>
+                    <input type="checkbox" name="lp"><label>C++</label><br>
+                    <input type="checkbox" name="lp"><label>Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="lp"><label>Rust</label><br>
+                    <input type="checkbox" name="lp"><label>Python</label>
+                </div>
+                <div><input type="checkbox" name="lp"><label>Kotlin</label><br>
+                    <input type="checkbox" name="lp"><label>Ninguno</label>
+                </div>
+            </div><br>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend class="legend">Proyectos </legend>
+            <div>
+                <label for="proyectos">Un resumen de los proyectos que en los que has participado</label><br>
+                <textarea name="proyectos" rows="4" cols="57">
+        </textarea>
+            </div><br>
+            <label for="encuesta">En general que tan satisfecho te encuentras con el nivel de Programacion
+                que tienes actualmente
+            </label><br>
+            * 1 es totalmente descontento y 5 es totalmente contento<br>
+            <input type="range" name="encuesta" min="1" max="5">
+            </div>
+        </fieldset>
+
+        <!-- 
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+        </datalist>
+        -->
+        <output name="Hola Mundo!!"></output>
+        <div class="submit">
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+
+</body>

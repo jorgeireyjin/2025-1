@@ -1,0 +1,25 @@
+/*************************************** */
+/* Ejemplo de MAP 
+La matriz original no se modifica y la matriz devuelta puede contener elementos diferentes 
+a los de la matriz original.
+/*************************************** */
+function map(array, transform) {
+    let rpta = [];
+    for (let element of array) {
+      rpta.push(transform + element );
+    }
+    return rpta;
+  }
+  
+const alumno = ['PEpito', 'Carlitos', 'Luchito', 'Anita', 'Dorita'];
+rpta = map(alumno, "ASISTE A CLASE -> ")
+console.log( rpta )
+
+/***/
+
+console.log(" * * * MAP * * *")
+const listado = alumno.map( a => {
+  return a + ' asistio a clase';
+})
+
+console.log(listado);

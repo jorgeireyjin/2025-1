@@ -1,0 +1,140 @@
+
+
+/* */
+body {
+    font-family: Verdana, sans-serif;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/********** El encabezado ***/
+header {
+    font-size: 25px;
+    font-weight: 800;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header>h2 {
+    text-shadow: .2em .2em silver;
+}
+
+
+/**************** La zona de navegacion ******************/
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*** Elementos del cuerpo de la pagina ***/
+h1 {
+    color: green;
+    text-transform: uppercase;
+    border-bottom: 1px solid red;
+    text-shadow: .2em .2em silver;
+}
+
+p {
+    font-size: small;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+
+/*** Afactamos los <li> de la navegacion y del cuerpo ***/
+li {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+/********** El piede pagina ******/
+footer {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    margin-top: -100px;
+    clear: both;
+}
+
+footer > p {
+    font-size: smaller;
+    color: white;
+    align-content: center;
+}
+
+
+/********* La imagen de cabacera ***/
+img {
+    float: left;
+    margin: 0 12px;
+}
+
+/******** La imagen SVG ******/
+svg {
+    width: 100px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/******* Los CONTENEDORES ****/
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+}
+
+#principal {
+    
+    width: 75%;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#lateral {
+    width: 20%;
+    /* Este será el ancho que tendrá tu columna */
+    background-color: #CCCCCC;
+    /* Aquí pon el color del fondo que quieras para este lateral */
+    float: right;
+    /* Aquí determinas de lado quieres quede esta "columna" */
+    font-size: small;
+    border-radius: 10px;
+    border-color: black;
+}
+
+/* Para limpiar los floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+cite {
+    color: blue;
+}
+
+#v{
+    text-align: center;
+}
+
+video {
+    max-width: 100%; /* Asegura que el video no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción del video */
+}

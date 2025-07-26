@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:auto;
+}
+
+h1 {
+    background-color: orange;
+}
+
+h2 {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+div {
+        margin: 0 auto;
+        width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+    background:#999;    
+}
+
+code {
+    color: darkblue;
+    font-size: large;
+    border-color: black;
+    border-radius: 10px;
+    margin: 5px;
+}

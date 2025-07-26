@@ -1,0 +1,40 @@
+/*
+Sombras de texto
+*/
+h1 {
+    text-shadow: -5px 4px 6px gray;
+    font-size: 400%;
+}
+
+
+/*
+Colores
+http://www.workwithcolor.com
+nombre
+rgb rgba
+hsl hsla
+*/
+
+/*
+sombra a la imagen
+*/
+img {
+    box-shadow: 25px 25px 10px darkgray;
+}
+
+/*
+Animacion
+*/
+img {
+    position: relative;
+    animation: movimiento linear 10s 2 1s;
+}
+
+@keyframes movimiento {
+    0% { opacity: 0; left: 50px; top:0px; }
+    25% { opacity: 1; left: 0px; top:50px; }
+    50% { opacity: 0; left: 50px; top:100px; }
+    75% { opacity: 1; left: 100px; top:50px; }
+    100% { opacity: 0; left: 50px; top:0px; }
+
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+   background-color: black;
+    font-size: auto;
+}
+
+
+img    {
+    text-align: center;
+    border-color: yellow;
+    border-style: double;
+    border-radius: 10px;
+    display: inline;
+}
+
+footer {
+    align-content: center;
+    position: relative;
+    width: 100%;
+    background-color: red;
+    margin-top: -10px;
+}
+
+footer > p {
+    font-size: smaller;
+    color: white;
+    text-align: center;
+}
+
+
+div {
+    display: block;
+    align-content: center;
+}
+
+a {
+    font-size: 30px;
+    margin: 20px;
+}

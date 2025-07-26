@@ -1,0 +1,13 @@
+Resumen del ORDEN a seguir:
+
+Entidades : clases o estructuras que representan los conceptos clave de tu negocio
+
+Implementaciones de Repositorio : defines cómo se almacenan y recuperan los datos.
+
+Casos de Uso : encapsulan la lógica de negocio y las reglas de la aplicación. Aquí es donde defines cómo interactúan las entidades y qué operaciones se pueden realizar.
+
+Controladores : manejan las solicitudes HTTP y las respuestas.
+
+Rutas : conectas los controladores con las rutas HTTP. Esto permite que tu aplicación escuche las solicitudes y dirija el tráfico a los controladores correspondientes.
+
+Configuración del Servidor

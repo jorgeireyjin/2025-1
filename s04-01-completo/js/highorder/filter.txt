@@ -1,0 +1,29 @@
+/*************************************
+ * Ejemplo normal de un Filtro
+
+****************************************/
+function filter(array, test) {
+    let rpta = [];
+    for (let element of array) {
+      if ( element % test == 0) {
+        rpta.push(element);
+      }
+    }
+    return rpta;
+  }
+
+const numeros = [1,2,3,4,5,6,7,8,9,10];
+rpta = filter(numeros, 2)
+console.log( "Los pares son " , rpta)
+  
+/*************************************** 
+  Ejemplo de usando HighOrder FILTER
+*************************************** */
+console.log(" * * * HighOrder FILTER * * *")
+const pares = numeros.filter(n => {  
+    return n % 2 == 0;
+});
+console.log("Los pares son " + pares)
+  
+  
+  
